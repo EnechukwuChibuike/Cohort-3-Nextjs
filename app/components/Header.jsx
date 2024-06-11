@@ -9,6 +9,12 @@ function Header() {
         <Link href="/">Home</Link>
         <Link href="/about">About</Link>
         <Link href="/contact">Contact</Link>
+        <Link
+          href="/login"
+          className="p-3 bg-blue-500 rounded-md text-white hover:bg-blue-600"
+        >
+          Login
+        </Link>
       </nav>
     </header>
   );
